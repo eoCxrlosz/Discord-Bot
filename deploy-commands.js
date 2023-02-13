@@ -28,7 +28,7 @@ const GUILD_ID = '849566412599066676';
 
 (async () =>{
     try {
-        console.log('Resentando ${commands.length} comandos...')
+        console.log('Resetando ${commands.length} comandos...')
 
         const data = await rest.put(
             Routes.applicationGuildCommands(CLIENT_ID, GUILD_ID),
